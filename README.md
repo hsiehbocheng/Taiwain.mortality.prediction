@@ -8,19 +8,19 @@ from the webpage of Ministry of Interior uesd  to demonstrate how these two meth
 The data of the years 2001-2015 are used as the “training”(in-sample) data\
 and the years 2016-2020 are used as the “testing” data.
 
-<110-2 academic year computer and simulation, nccu, csyue>
----
+<110-2 academic year computer and simulation, nccu, csyue>------------------------------------------------
+
 ### **SVD** 
 mortality prediction using the model 'Lee-Carter model'\
 ln(mortality) = a_x + b_x*k_t + error\
 applying the SVD, i.e., lm(mortality - a_x) = UPV'\
 the matrix U represents the time component,\
-and V is the age component.\
+and V is the age component.
 
-### **PCA**
+### **PCA** 
 similar to SVD,\
 loading represents the age component,\
-scores reprensents the time components.\
+scores reprensents the time components.
 
 ### **output**
 method : SVD\
