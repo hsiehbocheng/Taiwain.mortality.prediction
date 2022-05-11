@@ -23,12 +23,16 @@ loading represents the age component,\
 scores reprensents the time components.\
 
 ### **output**
-method : SVD
+method : SVD\
+<img src="mortality predict by SVD.png" alt="Cover" width="35%"/>
+
 |year|2016|2017|2018|2019|2020|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |MAPE|4.3581%|1.5019%|0.7129%|0.4138%|3.3479%|
 
-method : PCA
+method : PCA\
+<img src="mortality predict by PCA.png" alt="Cover" width="35%"/>
+
 |year|2016|2017|2018|2019|2020|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |MAPE|10.0778%|8.1116%|8.0680%|7.7220%|5.7398%|
